@@ -1,0 +1,20 @@
+
+
+.container{
+ display: flex;
+ gap: 10px;
+ margin: 50px;
+
+
+ .bar{
+   flex-grow: 3;
+ }
+
+ .beers{
+   flex-grow: 7;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+   gap: 10px;
+   border: 1px solid black;
+ }
+}
